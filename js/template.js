@@ -17,12 +17,12 @@ export const template = {
     printF() {
         return this.el.innerHTML += `
                                     <ul>
-                                        <li><img src="${Description.Image}" alt="Image de New York" itemprop="image"></li>
-                                        <li><span aria-hidden="true"><ion-icon name="logo-amazon"></ion-icon></span><b>Description :</b> ${Description.Ville}</li>
-                                        <li><span aria-hidden="true"><ion-icon name="logo-google-playstore"></ion-icon></span><b>Météo :</b> ${Description.Météo}</li>
-                                        <li><span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span><b>Quartier :</b> ${Description.quartier}</li>
-                                        <li><span aria-hidden="true"><ion-icon name="logo-pinterest"></ion-icon></span><b>Population :</b> ${Description.population}</li>
-                                        <li><span aria-hidden="true"><ion-icon name="logo-paypal"></ion-icon></span><b>Coordonnées :</b> ${Description.superficie}</li>
+                                        <li itemprop="image"><img src="${Description.Image}" alt="Image de New York" itemprop="image"></li>
+                                        <li itemprop="description"><span aria-hidden="true"><ion-icon name="logo-amazon"></ion-icon></span><b>Description :</b> ${Description.Ville}</li>
+                                        <li itemprop="description"><span aria-hidden="true"><ion-icon name="logo-google-playstore"></ion-icon></span><b>Météo :</b> ${Description.Météo}</li>
+                                        <li itemprop="description"><span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span><b>Quartier :</b> ${Description.quartier}</li>
+                                        <li itemprop="description"><span aria-hidden="true"><ion-icon name="logo-pinterest"></ion-icon></span><b>Population :</b> ${Description.population}</li>
+                                        <li itemprop="description"><span aria-hidden="true"><ion-icon name="logo-paypal"></ion-icon></span><b>Coordonnées :</b> ${Description.superficie}</li>
                                     </ul>
                                     `;
     }
