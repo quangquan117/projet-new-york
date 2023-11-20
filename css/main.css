@@ -1,3 +1,9 @@
+html{
+    margin: 0;
+	padding: 0;
+	height: 100%;
+    background: linear-gradient(#ffffff, #0098df);
+}
 header h1{
     text-align: center;
     font-weight: normal;
@@ -8,6 +14,7 @@ section{
     margin: 0rem auto;
     padding: 1rem;
     border: solid .1rem #fff;
+    background-color: #fafafa;
 }
 section img{
     display: inline-block;
