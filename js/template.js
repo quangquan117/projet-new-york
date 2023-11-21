@@ -21,6 +21,9 @@ const Icon = {
 };
 
 export const template = {
+    // parent: document.querySelector("select"),
+    // child: document.createElement("ul"),
+    // parent.appendChild(child)
     el: document.querySelector("section"),
     printF() {
         this.el.innerHTML += "<ul>";
